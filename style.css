@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.input1{
+    position: absolute;
+    left: -100px;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+header h1{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    animation: 2s header_h1;
+}
+
+@keyframes header_h1{
+    0%{
+        transform: translate(-50% , -25%);
+        opacity: 0;
+    }
+
+    20%{
+        transform: translate(-50% , -25%);
+        opacity: 0;
+    }
+
+}
+
+header .open1{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+    animation: 4s open1;
+}
+
+@keyframes open1{
+    0%{
+        opacity: 0;
+    }
+
+    80%{
+        opacity: 0;
+    }
+}
+
+
+.text1{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    transition: 0.5s;
+}
+
+.text1 .input2{
+    position: absolute;
+    left: -100px;
+}
+
+
+input[type="checkbox"]:checked ~ .text1{
+    top: 0vh;
+}
+
+.text1 h3{
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.text1 .text1_text{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text1_text p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.text1 .back1{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text1 .open2{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+}
+
+.text1 .text2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    transition: 0.5s;
+}
+
+.text2 .input3{
+    position: absolute;
+    left: -100px;
+}
+
+input[type="checkbox"]:checked ~ .text2{
+    top: 0vh;
+}
+
+.text2 h3{
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.text2 .text2_text{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text2_text p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.text2 .back2{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text2 .open3{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+}
+
+.text2 .text3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    transition: 0.5s;
+}
+
+.text3 .input4{
+    position: absolute;
+    left: -100px;
+}
+
+input[type="checkbox"]:checked ~ .text3{
+    top: 0vh;
+}
+
+.text3 h3{
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.text3 .text3_text{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text3_text p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.text3 .back3{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text3 .open4{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+}
+
+.text3 .text4{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    transition: 0.5s;
+}
+
+.text4 .input5{
+    position: absolute;
+    left: -100px;
+}
+
+input[type="checkbox"]:checked ~ .text4{
+    top: 0vh;
+}
+
+.text4 h3{
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.text4 .text4_text{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text4_text p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.text4 .back4{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text4 .open5{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+}
+
+.text3 .text5{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    transition: 0.5s;
+}
+
+input[type="checkbox"]:checked ~ .text5{
+    top: 0vh;
+}
+
+.text5 h2{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text5 .back5{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+}
